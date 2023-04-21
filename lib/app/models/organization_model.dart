@@ -8,14 +8,16 @@ class OrganizationModel {
   final String description;
   final String category;
   final String address;
-  final String? image1;
+  final String? image;
+  // final String? backgroudImage;
+  // final String? logoImage;
   final List<dynamic> products;
   OrganizationModel({
     required this.name,
     required this.description,
     required this.category,
     required this.address,
-    this.image1,
+    this.image,
     required this.products,
   });
 
@@ -25,7 +27,7 @@ class OrganizationModel {
       'description': description,
       'category': category,
       'address': address,
-      'image1': image1,
+      'image': image,
       'products': products,
     };
   }
@@ -35,7 +37,7 @@ class OrganizationModel {
     String? description,
     String? category,
     String? address,
-    String? image1,
+    String? image,
     List<dynamic>? products,
   }) {
     return OrganizationModel(
@@ -43,7 +45,7 @@ class OrganizationModel {
       description: description ?? this.description,
       category: category ?? this.category,
       address: address ?? this.address,
-      image1: image1 ?? this.image1,
+      image: image ?? this.image,
       products: products ?? this.products,
     );
   }
@@ -54,7 +56,7 @@ class OrganizationModel {
   //     description: map['description'] as String,
   //     category: map['category'] as String,
   //     address: map['address'] as String,
-  //     image1: map['image1'] != null ? map['image1'] as String : null,
+  //     image: map['image'] != null ? map['image'] as String : null,
   //     products: List<dynamic>.from((map['products'] as List<dynamic>),
   //   ));
   // }
@@ -64,7 +66,7 @@ class OrganizationModel {
       description: map['description'] as String? ?? '',
       category: map['category'] as String,
       address: map['address'] as String,
-      image1: map['image1'] as String?,
+      image: map['image'] as String?,
       products: List<dynamic>.from((map['products'] as List<dynamic>)),
     );
   }
@@ -75,7 +77,7 @@ class OrganizationModel {
   //     description: json['description'] as String,
   //     category: json['category'] as String,
   //     address: json['address'] as String,
-  //     image1: json['image1'] as String?,
+  //     image: json['image'] as String?,
   //     products: List<dynamic>.from(json['products'] as List<dynamic>),
   //   );
   // }
@@ -85,7 +87,7 @@ class OrganizationModel {
       name: json['name'] ?? "",
       description: json['description'] ?? "",
       address: json['localization'] ?? "",
-      image1: json['image1'] ?? "",
+      image: json['image'] ?? "",
       // owner: json['owner']  ?? "",
       products: json['products'] ?? [],
       category: json['category'] ?? "",
@@ -98,7 +100,7 @@ class OrganizationModel {
 
   @override
   String toString() {
-    return 'OrganizationModel(name: $name, description: $description, category: $category, address: $address, image1: $image1, products: $products)';
+    return 'OrganizationModel(name: $name, description: $description, category: $category, address: $address, image: $image, products: $products)';
   }
 
   @override
@@ -109,7 +111,7 @@ class OrganizationModel {
         other.description == description &&
         other.category == category &&
         other.address == address &&
-        other.image1 == image1 &&
+        other.image == image &&
         listEquals(other.products, products);
   }
 
@@ -119,7 +121,7 @@ class OrganizationModel {
         description.hashCode ^
         category.hashCode ^
         address.hashCode ^
-        image1.hashCode ^
+        image.hashCode ^
         products.hashCode;
   }
 }

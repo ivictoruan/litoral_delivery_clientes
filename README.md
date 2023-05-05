@@ -2,7 +2,7 @@
 
 📱 This is a mobile app made with Flutter 🦋 that aims to provide a delivery service for small towns in the state of Maranhão 🌴.
 
-🚀 The app uses the MVVM architecture pattern 🏭, and the state management is handled by the ChangeNotifier 🔄 with the help of Provider for dependency injection 💉.
+🚀 The app uses the MVC architecture pattern 🏭, and the state management is handled by the ChangeNotifier 🔄 with the help of Provider for dependency injection 💉.
 
 
 👨‍💻 To run the app, you'll need to have Flutter installed in your machine 💻. You can check how to install it on the official documentation: https://flutter.dev/docs/get-started/install

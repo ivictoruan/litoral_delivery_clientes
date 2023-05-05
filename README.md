@@ -1,22 +1,23 @@
-#👋 Hello there! Welcome to my README! 
+👋 Hello there! Welcome to my README! 
 
-##📱 This is a mobile app made with Flutter 🦋 that aims to provide a delivery service for small towns in the state of Maranhão 🌴.
+📱 This is a mobile app made with Flutter 🦋 that aims to provide a delivery service for small towns in the state of Maranhão 🌴.
 
-##🚀 The app uses the MVVM architecture pattern 🏭, and the state management is handled by the ChangeNotifier 🔄 with the help of Provider for dependency injection 💉.
+🚀 The app uses the MVVM architecture pattern 🏭, and the state management is handled by the ChangeNotifier 🔄 with the help of Provider for dependency injection 💉.
 
-##👨‍💻 To run the app, you'll need to have Flutter installed in your machine 💻. You can check how to install it on the official documentation: https://flutter.dev/docs/get-started/install
 
-#🔧 To install the dependencies, just clone the repository and run the command:
+👨‍💻 To run the app, you'll need to have Flutter installed in your machine 💻. You can check how to install it on the official documentation: https://flutter.dev/docs/get-started/install
+
+🔧 To install the dependencies, just clone the repository and run the command:
 ```
 flutter pub get
 ```
 
-#👉 Then, to start the app, run:
+👉 Then, to start the app, run:
 ```
 flutter run
 ```
 
-##🛍️ The app allows users: 
+#🛍️ The app allows users: 
 1. To register and login 🔑 [ ]
 2. Browse restaurants and products available for purchase 🍔🍟 [✅]
 3. Ad products to their shopping cart 🛒 [ ]

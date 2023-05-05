@@ -1,16 +1,40 @@
-# litoral_delivery_clientes
+#👋 Hello there! Welcome to my README! 
 
-A new Flutter project.
+##📱 This is a mobile app made with Flutter 🦋 that aims to provide a delivery service for small towns in the state of Maranhão 🌴.
 
-## Getting Started
+##🚀 The app uses the MVVM architecture pattern 🏭, and the state management is handled by the ChangeNotifier 🔄 with the help of Provider for dependency injection 💉.
 
-This project is a starting point for a Flutter application.
+##👨‍💻 To run the app, you'll need to have Flutter installed in your machine 💻. You can check how to install it on the official documentation: https://flutter.dev/docs/get-started/install
 
-A few resources to get you started if this is your first Flutter project:
+#🔧 To install the dependencies, just clone the repository and run the command:
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#👉 Then, to start the app, run:
+```
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##🛍️ The app allows users: 
+1. To register and login 🔑 [ ]
+2. Browse restaurants and products available for purchase 🍔🍟 [✅]
+3. Ad products to their shopping cart 🛒 [ ]
+4. Finalize the purchase with the choice of delivery address and payment 💳 [ ]
+5. Track the order status in real-time 🚚. [ ]
+
+🧑‍💻 The technologies used in this project are Flutter, ChangeNotifier, Provider, and Firebase 🔥.
+
+🤝 Contributions are welcome and appreciated! To contribute, just fork the repository, create a new branch with your feature, commit your changes, push it to your branch, and open a pull request! 🤩
+
+<div align="center">
+
+## Contato
+
+[![Email](https://img.shields.io/badge/Email-victorruan135@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:victorruan135@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ivictoruan-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivictoruan)
+[![GitHub](https://img.shields.io/badge/GitHub-ivictoruan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ivictoruan)
+
+</div>
+
+
